@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "yekan";
+    src: url(../fonts/Yekan.woff2) format("woff2");
+}
+
+body {
+    font-family: "yekan";
+    background: #e5e7eb
+}
+
+
+/* 
+===============
+Nav
+===============
+ */
+
+.logo {
+    display: inline-block;
+    margin: 0rem 5rem 0 1rem;
+}
+
+.nav {
+    background: #f5f5f5;
+    margin: 1rem 2rem;
+    height: 13vh;
+    width: 95vw;
+    position: absolute;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: right;
+}
+
+.menu {
+    display: flex;
+    column-gap: 2rem;
+    list-style: none;
+    margin-right: 1rem
+}
+
+.menu-li {
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: 400;
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-3 {
+    display: block;
+}
+
+.icons {
+    margin-right: 20rem;
+}
+
+.bi-person {
+    font-size: 25px;
+    color: #1F2937;
+}
+
+.bi-search {
+    color: #1F2937;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+/* 
+===============
+Header
+===============
+*/
+
+.img-header {
+    width: 100%;
+}
+
+.header-h2 {
+    font-size: 30px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+
+.header p {
+    text-align: center;
+    font-weight: 100;
+}
+.header  {
+    direction: rtl;
+}
+
+/* 
+===============
+Services
+===============
+*/
+.services {
+    direction: rtl;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.article-services {
+    width: 23%;
+    height: 35%;
+    background: #f5f5f5;
+    border-radius: 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.bi-brush {
+    font-size: 40px;
+    color: #1F2937;
+    padding: 1rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+.bi-code-slash {
+    font-size: 45px;
+    color: #1F2937;
+    padding: 1rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+.bi-grid {
+    font-size: 40px;
+    color: #1F2937;
+    padding: 1rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+.bi-layers {
+    font-size: 45px;
+    color: #1F2937;
+    padding: 1rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+.article-services h3 {
+    font-size: 15px;
+    padding-top: 15px;
+    border-top: 3.5px solid #facc15;
+}
+
+.pservices {
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+}
+
+/* 
+===============
+Project
+===============
+*/
+.project {
+    direction: rtl;
+    background: #1F2937;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.project h2 {
+    font-size: 35px;
+    padding-top: 5rem;
+    color: #fff;
+}
+
+.project p {
+    color: #fff;
+}
+
+/* 
+===============
+Project Article
+===============
+*/
+
+.blogs {
+    margin-top: 3rem;
+    display: flex;
+}
+
+.blog img {
+    width: 90%;
+    border-radius: 1rem;
+}
+
+/* 
+===============
+About
+===============
+*/
+.about {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+}
+.about h2 {
+    color: #1F2937;
+    font-size: 35px;
+}
+.about p {
+    color: #1F2937;
+    font-size: 18px;
+}
+.about-paragraph {
+    font-size: 18px;
+    line-height: 2rem;
+    margin-top: 4rem;
+    width: 60%;
+    text-align: right;
+}
+.about-img img {
+    width: 30%;
+    display: inline-block;
+}
